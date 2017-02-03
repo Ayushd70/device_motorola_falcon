@@ -48,3 +48,5 @@ TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
 # inherit from the proprietary version
 -include vendor/motorola/falcon/BoardConfigVendor.mk
+
+USE_PREBUILT_LIBQSAP_SDK := true
